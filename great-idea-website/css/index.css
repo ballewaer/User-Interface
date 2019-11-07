@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header,
+main,
+footer {
+	max-width: 877px;
+	min-width: 877px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+header {
+	height: 60px;
+	margin-top: 20px;
+	position: relative;
+	width: 100%;
+}
+
+header nav {
+	display: inline-block;
+	height: 100%;
+	left: 0;
+	padding: 10px;
+	position: top, fixed;
+	width: 78%;
+  /*background-color: rgba(205, 32, 32, 0.17); 
+	position: top, fixed; */
+}
+
+header nav a,
+header nav a:hover,
+header nav a:active {
+  position: top, fixed;
+	color: grey;
+	text-decoration: none;
+}
+
+header div {
+	display: inline-block;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	width: 22%;
+}
+
+header nav a {
+	display: inline-block;
+	width: 15%;
+}
+
+main {
+	width: 100%;
+}
+
+.innov {
+	height: 500px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.innov-text {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	width: 54%;
+}
+
+.innov div h1 {
+	font-size: 70px;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.innov button {
+	border: 1px solid black;
+	border-radius: 0px;
+	font-size: 16px;
+	display: block;
+	margin: auto;
+	padding: 4px 20px;
+	background: white;
+}
+
+.innov-image {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 45%;
+}
+
+.innov-image img {
+	margin-top: 50px;
+}
+
+.article-top-section {
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+.article-top-section div {
+	display: inline-block;
+	width: 49%;
+}
+
+article img {
+	margin: 40px 0;
+	max-width: 877px;
+	width: 100%;
+}
+
+.article-middle-section {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.article-middle-section div {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact​ {
+	padding-top: 30px;
+}
+
+
+footer {
+	height: 180px;
+	padding-top: 50px;
+	text-align: center;
+}
